@@ -1,0 +1,7 @@
+# https://cloud.google.com/appengine/docs/standard/go112/scheduling-jobs-with-cron-yaml?hl=ja
+
+cron:
+- description: "run bento"
+  url: /
+  schedule: every mon,tue,wed,thu,fri 11:50
+  timezone: Asia/Tokyo

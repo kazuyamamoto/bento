@@ -1,0 +1,7 @@
+# https://cloud.google.com/appengine/docs/standard/go112/config/appref?hl=ja
+
+runtime: go112
+
+handlers:
+- url: /.*
+  script: auto
